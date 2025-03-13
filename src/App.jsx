@@ -12,6 +12,7 @@ import SearchLogic from './Search-AutoComplete'
 import TicTacToe from './Tic-tac-toe'
 import FeatureFlagsGlobalContext from './Feature-Flags/Context'
 import FeatureFlags from './Feature-Flags'
+import FormHandling from './Form-handling'
 
 const App = () => {
   return (
@@ -33,9 +34,11 @@ const App = () => {
 
       {/* <TicTacToe/> */}
 
-      <FeatureFlagsGlobalContext>
+      {/* <FeatureFlagsGlobalContext>
         <FeatureFlags />
-      </FeatureFlagsGlobalContext>
+      </FeatureFlagsGlobalContext> */}
+
+      <FormHandling/>
     </div>
   )
 }
