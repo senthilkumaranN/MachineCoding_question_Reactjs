@@ -13,6 +13,7 @@ import TicTacToe from './Tic-tac-toe'
 import FeatureFlagsGlobalContext from './Feature-Flags/Context'
 import FeatureFlags from './Feature-Flags'
 import FormHandling from './Form-handling'
+import TableData from './Table-Data'
 
 const App = () => {
   return (
@@ -38,7 +39,9 @@ const App = () => {
         <FeatureFlags />
       </FeatureFlagsGlobalContext> */}
 
-      <FormHandling/>
+      {/* <FormHandling/> */}
+
+      <TableData/>
     </div>
   )
 }
